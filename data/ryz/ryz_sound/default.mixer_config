@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision$" State="modified">
+  <STRUCT>
+    <ATOM Name="HighestPriorityReserve" Value="2"/>
+    <ATOM Name="HighPriorityReserve" Value="4"/>
+    <ATOM Name="MidPriorityReserve" Value="6"/>
+    <ATOM Name="LowPriorityReserve" Value="8"/>
+    <ARRAY Name="SampleBanks">
+      <ATOM Value="__fauna"/>
+      <ATOM Value="__fauna_generic"/>
+      <ATOM Value="__step"/>
+      <ATOM Value="__common"/>
+      <ATOM Value="_ps"/>
+      <ATOM Value="__homins"/>
+    </ARRAY>
+    <ARRAY Name="BackgroundFlags">
+      <STRUCT>
+        <ATOM Name="Name" Value="Day"/>
+        <ATOM Name="ShortName" Value="D"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="Night"/>
+        <ATOM Name="ShortName" Value="N"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="Morning"/>
+        <ATOM Name="ShortName" Value="M"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="Dusk"/>
+        <ATOM Name="ShortName" Value="D"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="Spring"/>
+        <ATOM Name="ShortName" Value="S"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="Summer"/>
+        <ATOM Name="ShortName" Value="S"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="Autumn"/>
+        <ATOM Name="ShortName" Value="A"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="Winter"/>
+        <ATOM Name="ShortName" Value="W"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="mist"/>
+        <ATOM Name="ShortName" Value="m"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="fair1"/>
+        <ATOM Name="ShortName" Value="f1"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="fair2"/>
+        <ATOM Name="ShortName" Value="f2"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="fair3"/>
+        <ATOM Name="ShortName" Value="f3"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="clouds"/>
+        <ATOM Name="ShortName" Value="c"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="rain1"/>
+        <ATOM Name="ShortName" Value="r1"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="rain2"/>
+        <ATOM Name="ShortName" Value="r2"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="snow1"/>
+        <ATOM Name="ShortName" Value="s1"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="thunder1"/>
+        <ATOM Name="ShortName" Value="t1"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="thunderseve1"/>
+        <ATOM Name="ShortName" Value="tv1"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="thundersand1"/>
+        <ATOM Name="ShortName" Value="ts1"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="thundersand2"/>
+        <ATOM Name="ShortName" Value="ts2"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="thundersand3"/>
+        <ATOM Name="ShortName" Value="ts3"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="Bad Atmosphere"/>
+        <ATOM Name="ShortName" Value="B"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="Good Atmosphere"/>
+        <ATOM Name="ShortName" Value="G"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="10*1000"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Name" Value="Quick Mute"/>
+        <ATOM Name="ShortName" Value="Q"/>
+        <ATOM Name="FadeIn" Value="10*1000"/>
+        <ATOM Name="FadeOut" Value="100"/>
+        <ATOM Name="InitialState" Value="false"/>
+      </STRUCT>
+    </ARRAY>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG>Mon Jan 06 10:14:40 2003 (boucher) .SampleBanks[0] = ambiance
+Mon Jan 06 10:14:40 2003 (boucher) .SampleBanks[1] = animaux
+Mon Jan 06 10:14:40 2003 (boucher) formName Resized = 32
+Mon Jan 06 10:15:25 2003 (boucher) .BackgroundFlags[0].FadeIn = 10
+Mon Jan 06 10:15:25 2003 (boucher) .BackgroundFlags[0].FadeOut = 20
+Mon Jan 06 10:15:25 2003 (boucher) .BackgroundFlags[0].InitialState = true
+Mon Jan 06 10:15:25 2003 (boucher) .BackgroundFlags[0].Name = name
+Mon Jan 06 10:15:25 2003 (boucher) .BackgroundFlags[0].ShortName = s
+Wed Jan 15 15:12:52 2003 (AmazingSound) .SampleBanks[15] = step
+Wed Feb 19 16:32:46 2003 (AmazingSound) .SampleBanks[15] = step
+Wed Mar 19 11:51:10 2003 (AmazingSound) formName Deleted = 
+Wed Mar 19 17:47:19 2003 (AmazingSound) formName Deleted = 
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[16] = arene_matis
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[17] = cascade_matis
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[18] = chant_matis
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[19] = desert_steppes_matis_defaut
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[20] = foret_matis_defaut
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[21] = foret_matis01
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[22] = foret_matis02
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[23] = foret_matis03
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[24] = geyser_matis
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[25] = jungle_matis01
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[26] = jungle_matis02
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[27] = jungle_matis03
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[28] = kitin_grotte_matis
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[29] = marecage_matis
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[30] = marecage_matis_defaut
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[31] = meditation_kamis
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[32] = racine_matis
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[33] = steppes_matis_defaut
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[34] = village_matis
+Tue Apr 01 18:41:53 2003 (AmazingSound) .SampleBanks[35] = whooshes
+Tue Apr 01 18:41:53 2003 (AmazingSound) formName Resized = 36
+Tue May 27 17:20:31 2003 (mory) .HighPriorityReserve = 4
+Tue May 27 17:20:31 2003 (mory) .HighestPriorityReserve = 2
+Tue May 27 17:20:31 2003 (mory) .LowPriorityReserve = 8
+Tue May 27 17:20:31 2003 (mory) .MidPriorityReserve = 6</LOG>
+</FORM>
