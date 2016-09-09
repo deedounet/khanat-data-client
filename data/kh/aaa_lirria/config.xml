@@ -583,11 +583,11 @@
     <param name="title_offset_x"
            value="8" />
     <param name="title_offset_y"
-           value="-7" />
+           value="-10" />
     <param name="title_offset_openable_x"
            value="20" />
     <param name="title_offset_openable_y"
-           value="-7" />
+           value="-10" />
     <param name="scrollbar_offset_x"
            value="6" />
     <param name="scrollbar_size_w"
@@ -732,11 +732,11 @@
     <param name="title_offset_x"
            value="56" />
     <param name="title_offset_y"
-           value="-23" />
+           value="-26" />
     <param name="title_offset_openable_x"
            value="20" />
     <param name="title_offset_openable_y"
-           value="-7" />
+           value="-10" />
     <param name="scrollbar_offset_x"
            value="6" />
     <param name="scrollbar_size_w"
@@ -873,11 +873,11 @@
     <param name="title_offset_x"
            value="28" />
     <param name="title_offset_y"
-           value="-7" />
+           value="-10" />
     <param name="title_offset_openable_x"
            value="20" />
     <param name="title_offset_openable_y"
-           value="-7" />
+           value="-10" />
     <param name="scrollbar_offset_x"
            value="6" />
     <param name="scrollbar_size_w"
@@ -1014,11 +1014,11 @@
     <param name="title_offset_x"
            value="8" />
     <param name="title_offset_y"
-           value="-4" />
+           value="-6" />
     <param name="title_offset_openable_x"
            value="18" />
     <param name="title_offset_openable_y"
-           value="-4" />
+           value="-6" />
     <param name="header_h"
            value="14" />
     <param name="open_state_tx_opened"
@@ -1109,11 +1109,11 @@
     <param name="title_offset_x"
            value="8" />
     <param name="title_offset_y"
-           value="-3" />
+           value="-5" />
     <param name="title_offset_openable_x"
            value="20" />
     <param name="title_offset_openable_y"
-           value="-3" />
+           value="-5" />
     <param name="header_h"
            value="12" />
     <param name="open_state_tx_opened"
@@ -1202,11 +1202,11 @@
     <param name="title_offset_x"
            value="8" />
     <param name="title_offset_y"
-           value="-3" />
+           value="-5" />
     <param name="title_offset_openable_x"
            value="22" />
     <param name="title_offset_openable_y"
-           value="-3" />
+           value="-5" />
     <param name="header_h"
            value="10" />
     <param name="open_state_tx_opened"
@@ -1295,11 +1295,11 @@
     <param name="title_offset_x"
            value="18" />
     <param name="title_offset_y"
-           value="-3" />
+           value="-5" />
     <param name="title_offset_openable_x"
            value="24" />
     <param name="title_offset_openable_y"
-           value="-3" />
+           value="-5" />
     <param name="header_h"
            value="10" />
     <param name="open_state_tx_opened"
@@ -1599,11 +1599,11 @@
     <param name="title_offset_x"
            value="8" />
     <param name="title_offset_y"
-           value="-4" />
+           value="-6" />
     <param name="title_offset_openable_x"
            value="18" />
     <param name="title_offset_openable_y"
-           value="-4" />
+           value="-6" />
     <param name="header_h"
            value="14" />
     <!-- View state opened/closed (defined TL TL) -->
@@ -1698,11 +1698,11 @@
     <param name="title_offset_x"
            value="8" />
     <param name="title_offset_y"
-           value="0" />
+           value="-2" />
     <param name="title_offset_openable_x"
            value="40" />
     <param name="title_offset_openable_y"
-           value="0" />
+           value="-2" />
     <param name="header_h"
            value="12" />
     <!-- View state opened/closed (defined TL TL) -->
@@ -1916,8 +1916,6 @@ This MUST follow the Enum MISSION_DESC::TIconId
            value="basic.ttf" /> -->
     <param name="font"
            value="ryzom.ttf" />
-    <param name="monospace_font"
-           value="ryzom_monospace.ttf" />
     <param name="add_coef_font"
            value="1" />
     <param name="mul_coef_anim"
@@ -2113,76 +2111,76 @@ This MUST follow the Enum MISSION_DESC::TIconId
   <define id="win_priority_highest"
           value="5" />
   <!-- For bars, -1024 to +1024 "percent" values from CBarManager  -->
-  <define id="player_ChaScore1_percent"
+  <define id="player_hp_percent"
           value="UI:VARIABLES:USER:ChaScore1_RATIO" />
-  <define id="player_ChaScore2_percent"
+  <define id="player_sta_percent"
           value="UI:VARIABLES:USER:ChaScore2_RATIO" />
-  <define id="player_ChaScore3_percent"
+  <define id="player_sap_percent"
           value="UI:VARIABLES:USER:ChaScore3_RATIO" />
-  <define id="player_ChaScore4_percent"
+  <define id="player_focus_percent"
           value="UI:VARIABLES:USER:ChaScore4_RATIO" />
   <define id="player_percent_max"
           value="1024" />
   <!-- For character sheet numerical values from database -->
-  <define id="player_ChaScore1"
+  <define id="player_hp"
           value="UI:VARIABLES:USER:ChaScore1" />
   <!-- Local because sent by impulse -->
-  <define id="player_ChaScore1_max"
+  <define id="player_hp_max"
           value="SERVER:CHARACTER_INFO:SCORES0:Max" />
-  <define id="player_ChaScore1_base"
+  <define id="player_hp_base"
           value="SERVER:CHARACTER_INFO:SCORES0:Base" />
-  <define id="player_ChaScore2"
-          value="UI:VARIABLES:USER:ChaScore2" />
+  <define id="player_sta"
+          value="UI:VARIABLES:USER:STA" />
   <!-- Local because sent by impulse -->
-  <define id="player_ChaScore2_max"
+  <define id="player_sta_max"
           value="SERVER:CHARACTER_INFO:SCORES1:Max" />
-  <define id="player_ChaScore2_base"
+  <define id="player_sta_base"
           value="SERVER:CHARACTER_INFO:SCORES1:Base" />
-  <define id="player_ChaScore3"
-          value="UI:VARIABLES:USER:ChaScore3" />
+  <define id="player_sap"
+          value="UI:VARIABLES:USER:SAP" />
   <!-- Local because sent by impulse -->
-  <define id="player_ChaScore3_max"
+  <define id="player_sap_max"
           value="SERVER:CHARACTER_INFO:SCORES2:Max" />
-  <define id="player_ChaScore3_base"
+  <define id="player_sap_base"
           value="SERVER:CHARACTER_INFO:SCORES2:Base" />
-  <define id="player_ChaScore4"
-          value="UI:VARIABLES:USER:ChaScore4" />
+  <define id="player_focus"
+          value="UI:VARIABLES:USER:FOCUS" />
   <!-- Local because sent by impulse -->
-  <define id="player_ChaScore4_max"
+  <define id="player_focus_max"
           value="SERVER:CHARACTER_INFO:SCORES3:Max" />
-  <define id="player_ChaScore4_base"
+  <define id="player_focus_base"
           value="SERVER:CHARACTER_INFO:SCORES3:Base" />
-  <define id="player_ChaScore1reg"
+  <define id="player_hpreg"
           value="SERVER:CHARACTER_INFO:SCORES0:Regen" />
-  <define id="player_ChaScore1reg_base"
+  <define id="player_hpreg_base"
           value="SERVER:CHARACTER_INFO:SCORES0:BaseRegen" />
-  <define id="player_ChaScore2reg"
+  <define id="player_stareg"
           value="SERVER:CHARACTER_INFO:SCORES1:Regen" />
-  <define id="player_ChaScore2reg_base"
+  <define id="player_stareg_base"
           value="SERVER:CHARACTER_INFO:SCORES1:BaseRegen" />
-  <define id="player_ChaScore3reg"
+  <define id="player_sapreg"
           value="SERVER:CHARACTER_INFO:SCORES2:Regen" />
-  <define id="player_ChaScore3reg_base"
+  <define id="player_sapreg_base"
           value="SERVER:CHARACTER_INFO:SCORES2:BaseRegen" />
-  <define id="player_ChaScore4reg"
+  <define id="player_focreg"
           value="SERVER:CHARACTER_INFO:SCORES3:Regen" />
-  <define id="player_ChaScore4reg_base"
+  <define id="player_focreg_base"
           value="SERVER:CHARACTER_INFO:SCORES3:BaseRegen" />
-  <define id="player_carac_ChaScore1max"
+  <define id="player_carac_hpmax"
           value="SERVER:CHARACTER_INFO:CHARACTERISTICS0:VALUE" />
-  <define id="player_carac_ChaScore1reg"
+  <define id="player_carac_hpreg"
           value="SERVER:CHARACTER_INFO:CHARACTERISTICS1:VALUE" />
-  <define id="player_carac_ChaScore3max"
+  <define id="player_carac_sapmax"
           value="SERVER:CHARACTER_INFO:CHARACTERISTICS2:VALUE" />
-  <define id="player_carac_ChaScore3reg"
+  <define id="player_carac_sapreg"
           value="SERVER:CHARACTER_INFO:CHARACTERISTICS3:VALUE" />
-  <define id="player_carac_ChaScore2max"
+  <define id="player_carac_stamax"
           value="SERVER:CHARACTER_INFO:CHARACTERISTICS4:VALUE" />
-  <define id="player_carac_ChaScore2reg"
+  <define id="player_carac_stareg"
           value="SERVER:CHARACTER_INFO:CHARACTERISTICS5:VALUE" />
-  <define id="player_carac_ChaScore4max"
+  <define id="player_carac_wishmax"
           value="SERVER:CHARACTER_INFO:CHARACTERISTICS6:VALUE" />
-  <define id="player_carac_ChaScore4reg"
+  <define id="player_carac_wishreg"
           value="SERVER:CHARACTER_INFO:CHARACTERISTICS7:VALUE" />
   <define id="player_protect_acid"
           value="SERVER:CHARACTER_INFO:MAGIC_PROTECTION:0:VALUE" />
@@ -2767,9 +2765,6 @@ This MUST follow the Enum MISSION_DESC::TIconId
   <variable entry="UI:SAVE:SHOW_CLOCK"
             type="bool"
             value="false" />
-  <variable entry="UI:SAVE:SHOW_CLOCK_12H"
-            type="bool"
-            value="false" />
   <variable entry="UI:SAVE:SHOW_RETICLE"
             type="bool"
             value="true" />
@@ -2887,12 +2882,15 @@ This MUST follow the Enum MISSION_DESC::TIconId
             type="bool"
             value="true" />
   <!-- Blend between day and night (lightLevel = 0 day) (lightLevel = 1 night) -->
-  <link expr="identity(ilinear(getLightLevel(), getRed(intToColor(@UI:SAVE:DAY_COLOR)), getRed(intToColor(@UI:SAVE:NIGHT_COLOR))), @UI:VARIABLES:CURRENT_TIME)"
-        target="@UI:SAVE:COLOR:R" />
-  <link expr="identity(ilinear(getLightLevel(), getGreen(intToColor(@UI:SAVE:DAY_COLOR)), getGreen(intToColor(@UI:SAVE:NIGHT_COLOR))), @UI:VARIABLES:CURRENT_TIME)"
-        target="@UI:SAVE:COLOR:G" />
-  <link expr="identity(ilinear(getLightLevel(), getBlue(intToColor(@UI:SAVE:DAY_COLOR)), getBlue(intToColor(@UI:SAVE:NIGHT_COLOR))), @UI:VARIABLES:CURRENT_TIME)"
-        target="@UI:SAVE:COLOR:B" />
+  <link expr="depends(@UI:VARIABLES:CURRENT_TIME)"
+        action="set"
+        params="dblink=UI:SAVE:COLOR:R|value=ilinear(getLightLevel(), getRed(intToColor(@UI:SAVE:DAY_COLOR)), getRed(intToColor(@UI:SAVE:NIGHT_COLOR)))" />
+  <link expr="depends(@UI:VARIABLES:CURRENT_TIME)"
+        action="set"
+        params="dblink=UI:SAVE:COLOR:G|value=ilinear(getLightLevel(), getGreen(intToColor(@UI:SAVE:DAY_COLOR)), getGreen(intToColor(@UI:SAVE:NIGHT_COLOR)))" />
+  <link expr="depends(@UI:VARIABLES:CURRENT_TIME)"
+        action="set"
+        params="dblink=UI:SAVE:COLOR:B|value=ilinear(getLightLevel(), getBlue(intToColor(@UI:SAVE:DAY_COLOR)), getBlue(intToColor(@UI:SAVE:NIGHT_COLOR)))" />
   <!--<link expr="depends(@UI:VARIABLES:CURRENT_TIME)" action="set" 
                 params="dblink=UI:SAVE:COLOR:A|value=ilinear(getLightLevel(), @UI:SAVE:DAY_COLOR:A, @UI:SAVE:NIGHT_COLOR:A)" />-->
   <!-- The User Target Slot and UID -->
@@ -3323,6 +3321,9 @@ This MUST follow the Enum MISSION_DESC::TIconId
   <variable entry="UI:SAVE:ISDETACHED:REGION_CHAT"
             type="sint32"
             value="0" />
+  <variable entry="UI:SAVE:ISDETACHED:YUBO_CHAT"
+            type="sint32"
+            value="0" />
   <variable entry="UI:SAVE:ISENABLED:AROUND_ME"
             type="sint32"
             value="1" />
@@ -3339,6 +3340,9 @@ This MUST follow the Enum MISSION_DESC::TIconId
             type="sint32"
             value="1" />
   <variable entry="UI:SAVE:ISENABLED:SYSTEM_INFO"
+            type="sint32"
+            value="1" />
+  <variable entry="UI:SAVE:ISENABLED:YUBO_CHAT"
             type="sint32"
             value="1" />
   <!-- List Menu 5 -->
@@ -3466,15 +3470,15 @@ This MUST follow the Enum MISSION_DESC::TIconId
   <!-- ***************************** -->
   <!-- *  COMMON DEFINE COLORS     * -->
   <!-- ***************************** -->
-  <define id="ChaScore1_color"
+  <define id="hp_color"
           value="255 64 0 255" />
-  <define id="ChaScore1_color_neg"
+  <define id="hp_color_neg"
           value="127 32 0 255" />
-  <define id="ChaScore2_color"
+  <define id="sta_color"
           value="255 0 255 255" />
-  <define id="ChaScore3_color"
+  <define id="sap_color"
           value="72 255 0 255" />
-  <define id="ChaScore4_color"
+  <define id="focus_color"
           value="0 128 255 255" />
   <define id="bulk_color"
           value="215 185 75 255" />
@@ -3701,13 +3705,27 @@ This MUST follow the Enum MISSION_DESC::TIconId
   <define id="item_type_to_item_sheet_JOB_ELEMENT"
           value="rpjob_elementary.sitem" />
   <!-- ************************ -->
+  <!-- *          YUBO CHAT               * -->
+  <!-- ************************ -->
+  <!--
+        The Yubo Chat is a special telnet chat for Game Masters, same channel as the Yubo Klient
+-->
+  <variable entry="UI:VARIABLES:ISACTIVE:YUBO_CHAT"
+            type="sint32"
+            value="0" />
+  <variable entry="UI:VARIABLES:YUBO_CHAT_PRESENT"
+            type="sint32"
+            value="0" />
+  <define id="is_yubo_chat_present"
+          value="ne(@UI:VARIABLES:YUBO_CHAT_PRESENT,0)" />
+  <!-- ************************ -->
   <!-- *          DYNAMIC CHAT    * -->
   <!-- ************************ -->
   <define id="max_dyn_chan_per_player"
           value_from_code="getMaxDynChanPerPlayer()" />
   <variable entry="UI:SAVE:ISDETACHED:DYNAMIC_CHAT$i"
             type="sint32"
-            value="0"
+            value="1"
             size="%max_dyn_chan_per_player" />
   <variable entry="UI:SAVE:ISENABLED:DYNAMIC_CHAT$i"
             type="sint32"
@@ -3751,7 +3769,7 @@ This MUST follow the Enum MISSION_DESC::TIconId
           value_from_code="getMaxTeamMember()" />
   <define id="max_fame_tribe"
           value_from_code="lua:getNbTribeFameIndex()" />
-  <!-- Team Members (ChaScore4 not setuped) -->
+  <!-- Team Members (FOCUS not setuped) -->
   <variable entry="UI:VARIABLES:BARS:TEAM:$i:ChaScore1"
             type="sint32"
             value="0"
@@ -3764,7 +3782,7 @@ This MUST follow the Enum MISSION_DESC::TIconId
             type="sint32"
             value="0"
             size="%max_team_member" />
-  <!-- Animal (only ChaScore1) -->
+  <!-- Animal (only HP) -->
   <variable entry="UI:VARIABLES:BARS:ANIMAL:$i:ChaScore1"
             type="sint32"
             value="0"
@@ -3782,13 +3800,13 @@ This MUST follow the Enum MISSION_DESC::TIconId
   <variable entry="UI:VARIABLES:BARS:TARGET:ChaScore4"
             type="sint32"
             value="0" />
-  <define id="target_ChaScore1"
+  <define id="target_hp"
           value="UI:VARIABLES:BARS:TARGET:ChaScore1" />
-  <define id="target_ChaScore2"
+  <define id="target_sta"
           value="UI:VARIABLES:BARS:TARGET:ChaScore2" />
-  <define id="target_ChaScore3"
+  <define id="target_sap"
           value="UI:VARIABLES:BARS:TARGET:ChaScore3" />
-  <define id="target_ChaScore4"
+  <define id="target_focus"
           value="UI:VARIABLES:BARS:TARGET:ChaScore4" />
   <!-- Special USER. -1024 to +1024 "percent" values -->
   <variable entry="UI:VARIABLES:USER:ChaScore1_RATIO"
