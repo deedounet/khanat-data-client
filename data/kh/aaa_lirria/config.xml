@@ -2137,14 +2137,14 @@ This MUST follow the Enum MISSION_DESC::TIconId
   <define id="player_sta_base"
           value="SERVER:CHARACTER_INFO:SCORES1:Base" />
   <define id="player_sap"
-          value="UI:VARIABLES:USER:SAP" />
+          value="UI:VARIABLES:USER:ChaScore3" />
   <!-- Local because sent by impulse -->
   <define id="player_sap_max"
           value="SERVER:CHARACTER_INFO:SCORES2:Max" />
   <define id="player_sap_base"
           value="SERVER:CHARACTER_INFO:SCORES2:Base" />
   <define id="player_focus"
-          value="UI:VARIABLES:USER:FOCUS" />
+          value="UI:VARIABLES:USER:ChaScore4" />
   <!-- Local because sent by impulse -->
   <define id="player_focus_max"
           value="SERVER:CHARACTER_INFO:SCORES3:Max" />

@@ -373,7 +373,7 @@
                 posref="TL TL"
                 color="214 56 7 255"
                 text="uiHP"
-                val="%target_hp" />
+                val="%target_ChaScore1" />
       <instance template="text_tt"
                 posparent="jlife"
                 tooltip="uittTargetHp"

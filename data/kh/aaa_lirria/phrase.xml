@@ -738,11 +738,11 @@
 			-->
 			<instance template="box_widget" id="box_cost" posref="BL BL" w="81" h="13" />
 			
-			<view type="text_number" id="hp_cost" posparent="box_cost" posref="ML MM" x="14" y="-2" fontsize="8" shadow="true" value="SERVER:EXECUTE_PHRASE:LINK:#index:ChaScore1_COST" color="%hp_color" global_color="false" />
+			<view type="text_number" id="ChaScore1_cost" posparent="box_cost" posref="ML MM" x="14" y="-2" fontsize="8" shadow="true" value="SERVER:EXECUTE_PHRASE:LINK:#index:ChaScore1_COST" color="%hp_color" global_color="false" />
 			<view type="text" id="sep1" posparent="box_cost" posref="ML MM" x="27" y="-1" shadow="true" fontsize="10" hardtext="/" color="255 255 255 255" />
-			<view type="text_number" id="sap_cost" posparent="box_cost" posref="MM MM" x="0" y="-2" fontsize="8" shadow="true" value="SERVER:EXECUTE_PHRASE:LINK:#index:ChaScore3_COST" color="%sap_color" global_color="false" />
+			<view type="text_number" id="ChaScore3_cost" posparent="box_cost" posref="MM MM" x="0" y="-2" fontsize="8" shadow="true" value="SERVER:EXECUTE_PHRASE:LINK:#index:ChaScore3_COST" color="%sap_color" global_color="false" />
 			<view type="text" id="sep2" posparent="box_cost" posref="ML MM" x="54" y="-1" shadow="true" fontsize="10" hardtext="/" color="255 255 255 255" />
-			<view type="text_number" id="sta_cost" posparent="box_cost" posref="MR MM" x="-14" y="-2" fontsize="8" shadow="true" value="SERVER:EXECUTE_PHRASE:LINK:#index:ChaScore2_COST" color="%sta_color" global_color="false" />
+			<view type="text_number" id="ChaScore2_cost" posparent="box_cost" posref="MR MM" x="-14" y="-2" fontsize="8" shadow="true" value="SERVER:EXECUTE_PHRASE:LINK:#index:ChaScore2_COST" color="%sta_color" global_color="false" />
 		</group>
 		<link expr="eq(@UI:VARIABLES:LINKS_INFOS, 0)" target="name_cost:active" />	
 		
