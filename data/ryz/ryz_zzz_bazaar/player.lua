@@ -47,9 +47,9 @@ end
 -- Update player bars in function of what we wants to display (we can hide each one of the 3 bars : sap,stamina and focus)
 function game:updatePlayerBars()
 
-	local dispSap = getDbProp('UI:SAVE:PLAYER:DISP_SAP');
-	local dispSta = getDbProp('UI:SAVE:PLAYER:DISP_STA');
-	local dispFoc = getDbProp('UI:SAVE:PLAYER:DISP_FOC');
+	local dispSap = getDbProp('UI:SAVE:PLAYER:DISP_ChaScore3');
+	local dispSta = getDbProp('UI:SAVE:PLAYER:DISP_ChaScore2');
+	local dispFoc = getDbProp('UI:SAVE:PLAYER:DISP_ChaScore4');
 	
 	local ui = getUI('ui:interface:player:content');
 

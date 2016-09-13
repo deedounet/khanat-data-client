@@ -2130,7 +2130,7 @@ This MUST follow the Enum MISSION_DESC::TIconId
   <define id="player_hp_base"
           value="SERVER:CHARACTER_INFO:SCORES0:Base" />
   <define id="player_sta"
-          value="UI:VARIABLES:USER:STA" />
+          value="UI:VARIABLES:USER:ChaScore2" />
   <!-- Local because sent by impulse -->
   <define id="player_sta_max"
           value="SERVER:CHARACTER_INFO:SCORES1:Max" />
