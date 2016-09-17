@@ -199,17 +199,17 @@
     <action id="sap_bardisplay"
             name="uiSapBarDisplay"
             handler="set"
-            params="dblink=UI:SAVE:PLAYER:DISP_SAP|value=not(@UI:SAVE:PLAYER:DISP_SAP)" />
+            params="dblink=UI:SAVE:PLAYER:DISP_ChaScore3|value=not(@UI:SAVE:PLAYER:DISP_ChaScore3)" />
     <action id="sta_bardisplay"
             name="uiStaBarDisplay"
             handler="set"
-            params="dblink=UI:SAVE:PLAYER:DISP_STA|value=not(@UI:SAVE:PLAYER:DISP_STA)" />
+            params="dblink=UI:SAVE:PLAYER:DISP_ChaScore2|value=not(@UI:SAVE:PLAYER:DISP_ChaScore2)" />
     <action id="foc_bardisplay"
             name="uiFocBarDisplay"
             handler="set"
-            params="dblink=UI:SAVE:PLAYER:DISP_FOC|value=not(@UI:SAVE:PLAYER:DISP_FOC)" />
+            params="dblink=UI:SAVE:PLAYER:DISP_ChaScore4|value=not(@UI:SAVE:PLAYER:DISP_ChaScore4)" />
   </group>
-  <link expr="depends(@UI:SAVE:PLAYER:DISP_SAP, @UI:SAVE:PLAYER:DISP_STA, @UI:SAVE:PLAYER:DISP_FOC)"
+  <link expr="depends(@UI:SAVE:PLAYER:DISP_ChaScore3, @UI:SAVE:PLAYER:DISP_ChaScore2, @UI:SAVE:PLAYER:DISP_ChaScore4)"
         action="lua"
         params="game:updatePlayerBars()" />
   <link expr="depends(@SERVER:CHARACTER_INFO:PVP_FACTION_TAG)"
@@ -1126,7 +1126,7 @@
               value2="#beast_db_entry:HUNGER"
               range2="31"
               color3="%hp_color"
-              value3="#bars_entry:HP"
+              value3="#bars_entry:ChaScore1"
               range3="127" />
         <ctrl type="tooltip"
               id="tt"
