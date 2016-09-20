@@ -66,7 +66,7 @@ function game:updatePlayerBars()
 
 	-- choose good y-position
 
-	local totalBarDisp = dispSap + dispSta + dispFoc;
+	local totalBarDisp = dispChaScore3 + dispChaScore2 + dispChaScore4;
 	if (totalBarDisp == 3) then
 
 		ui.b_ChaScore3.y = -20;
@@ -83,7 +83,7 @@ function game:updatePlayerBars()
 
 		if (dispChaScore2 == 0) then
 			ui.b_ChaScore3.y = -20;
-			ui.b_foc.y = -35;
+			ui.b_ChaScore4.y = -35;
 		end
 
 		if (dispChaScore4 == 0) then
@@ -867,7 +867,7 @@ function game:updatePhraseTooltip(phrase)
 	self:setPhraseTooltipCarac(ttWin, "ChaScore1_cost",	phrase:getChaScore1Cost())
 	self:setPhraseTooltipCarac(ttWin, "ChaScore3_cost",	phrase:getChaScore3Cost())
 	self:setPhraseTooltipCarac(ttWin, "ChaScore2_cost",	phrase:getChaScore2Cost())	
-	self:setPhraseTooltipCarac(ttWin, "ChaScore4_cost", phrase:getChascore4Cost())	
+	self:setPhraseTooltipCarac(ttWin, "ChaScore4_cost", phrase:getChaScore4Cost())	
 	self:setPhraseTooltipCarac(ttWin, "cast_time",  phrase:getCastTime(), concatUCString(string.format("%.1f", phrase:getCastTime()), i18n.get("uittSeconds")))
 	local castRange = phrase:getCastRange()
 	if not phrase:isMagicPhrase() then
