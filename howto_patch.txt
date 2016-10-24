@@ -1,0 +1,11 @@
+en cours d'écriture 
+
+
+data : bnp à mettre dans /data
+  -fonts.bnp
+  -kh_shard/*.bnp (régérer par le shard à chaque patch)
+  -kh/*.bnp
+  -ryz/*.bnp
+
+
+client : prendre le dossier correspondant à son syteme et à mettre dans /.
