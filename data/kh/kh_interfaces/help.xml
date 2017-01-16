@@ -865,7 +865,7 @@
     </group>
   </group>
   <define id="cs_url"
-          value="https://app.khaganat.net/ams/" />
+          value="https://www.khaganat.net/" />
   <group type="container"
          id="cs_browser"
          w="410"
